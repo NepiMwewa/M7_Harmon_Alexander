@@ -5,7 +5,7 @@
   <meta charset="utf-8">
 
 	<title>Module 6 Practical</title>
-	<meta name="description" content="Module 6 practical example">
+	<meta name="Photography Website" content="Module 7 practical">
 	<link href="style.css" type="text/css" rel="stylesheet" media="screen"/>
 </head>
 
@@ -69,7 +69,50 @@
     <h4>Zach Smith</h4>
   </aside>
 
+  <article class="clear"> <!-- Form article to schedule a photoshoot>
 
+  </article> -->
+    <form>
+      <fieldset>
+        <legend>Schedule a photoshoot</legend>
+        <fieldset>
+          <legend>Contact Information</legend>
+          <label for="first_name">First Name:</label><br>
+          <input type="text" id="first_name" name="first_name"><br>
+          <label for="last_name">Last Name:</label><br>
+          <input type="text" id="last_name" name="last_name"><br>
+
+          <label for="email"> Enter your email:</label><br>
+          <input type="email" id="email" name="email"><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Photoshoot Type</legend>
+          <input type="radio" id="solo" name="photoshoot_type" value="solo">
+          <label for="solo">Solo</label><br>
+          <input type="radio" id="couple" name="photoshoot_type" value="couple">
+          <label for="couple">Couple</label><br>
+          <input type="radio" id="small_group" name="photoshoot_type" value="small_group">
+          <label for="small_group">Small Group</label><br>
+          <input type="radio" id="large_group" name="photoshoot_type" value="large_group">
+          <label for="large_group">Large Group</label><br>
+          <input type="radio" id="wedding" name="photoshoot_type" value="wedding">
+          <label for="wedding">Wedding</label><br>
+          <input type="radio" id="other" name="photoshoot_type" value="other">
+          <label for="other">Other</label><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Additional Requests</legend>
+          <label for="additional_requests"></label>
+          <textarea rows="12" cols="90" id="additional_requests" placeholder="Enter additional requests here"></textarea>
+        </fieldset>
+
+        <input id="submit" type="submit" value="Submit">
+
+      </fieldset>
+    </form>
+  </article>
 	<footer>
     <ul>
 		    <li>1234 Main St. Nowhere, CA 56780</li>
